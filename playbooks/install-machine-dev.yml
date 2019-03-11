@@ -1,5 +1,5 @@
 ## YAML Template.
-
+---
 #installation d'Apache sur le serveur de développement
 - name : Installation d'apache
   hosts: all
@@ -84,7 +84,7 @@
 - name : PHPMYADMIN Installation
   hosts : all
   tasks:
-      - name : Installation module debconf-utils
+      - name : desinstaller phpmyadmin
         apt:
             name : debconf-utils
             state : present
