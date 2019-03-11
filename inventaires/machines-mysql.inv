@@ -1,0 +1,7 @@
+[Debian9Mysql]
+192.168.43.181 ansible_user=root
+
+[Debian9Mysql:vars]
+mysql_user=eleve
+mysql_password=btsinfo
+mysql_db=bdeleve
